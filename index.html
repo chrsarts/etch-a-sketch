@@ -12,17 +12,13 @@
       <h1>Etch A Sketch!</h1>
     </header>
     <div class="input-container">
-      <h1>Select a grid size:</h1>
-      <select name="gridSelect" id="">
-        <option value="64">4</option>
-        <option value="64">8</option>
-        <option value="64">16</option>
-        <option value="64">32</option>
-        <option value="64">64</option>
-      </select>
+      <h1>Enter grid size:</h1>
+      <input id="grid-input" type="number" />
+      <button class="grid-btn">Enter</button>
     </div>
     <button class="reset-btn">Reset</button>
-    <div class="grid-container"></div>
+    <button class="changeColor-btn" id="change-btn">Fun mode!</button>
+    <div class="grid-container" id="grid-id"></div>
     <script src="main.js"></script>
   </body>
 </html>
